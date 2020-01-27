@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-view{
+    height: 100vh;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.inline{
+    display: inline;
+}
+
+.margin-ra{
+    margin-right: auto;
+}
+
+.margin-la{
+    margin-left: auto;
+}
+
+.block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.col{
+    flex-direction: column;
+}
+
+
+.h-flex{
+    justify-content: center;
+}
+
+.v-flex{
+    align-items: center;
+}
+
+.w1{
+    width: 8.3%;
+}
+
+.w2{
+    width: 16.6%;
+}
+
+.w3{
+    width: 24.9%;
+}
+
+.w4{
+    width: 33.2%;
+}
+
+.w5{
+    width: 41.5%;
+}
+
+.w6{
+    width: 49.8%;
+}
+
+.w7{
+    width: 58.1%;
+}
+
+.w8{
+    width: 66.4%;
+}
+
+.w9{
+    width: 74.7%;
+}
+
+.w10{
+    width: 83.1%;
+}
+
+.w11{
+    width: 91.4%;
+}
+
+.w12{
+width: 99.7%;
+}
+
+.double-input{
+    width: 48%;
+}
+
+  .card{
+      min-width: 225px;
+      min-height: 197.44px; 
+      max-width: 625px;
+      padding: 3px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 1.5px 2px 2px 2px rgb(112, 111, 111);
+      box-shadow: black;
+      border-radius: 6px;
+      background-color: white;
+      Offset: 0px, 3.49px rgba(144,113,99, 0.45) ;
+  }
+
+
+@media all and (max-width:720px){
+    .row{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .flex{
+        flex-wrap: wrap;
+    }
+
+    .double-input{
+        width: 80%;
+    }
+
+}
