@@ -22,15 +22,19 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     color: rgb(55, 55, 228);
     font-family: 'cardo';
-    background-image: -webkit-linear-gradient(30deg, #a683e3 50%, #E4e9fd 50%);
+    background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #E4e9fd 50%);
 
 }
 
 .josefin{
     font-family: 'josefin';
+}
+
+.mob-logo{
+    display: none;
 }
 
 .cardo{
@@ -283,6 +287,18 @@ select{
         display: none;
     }
 
+    .mob-logo{
+        display: block;
+    }
+
+    .form-top{
+        height: 50vh;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .sm-90{
         width: 98%;
     }
