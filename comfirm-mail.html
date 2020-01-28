@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Reset Password</title>
+</head>
+
+<body>
+
+    <div class="cofirm-mail full-view">
+        <div class="input-confirm">
+            <div class="wrapper">
+                <div class="reset-title josefin">
+                    Reset Password
+                </div>
+
+                <div class="reset-form">
+                    <form action="javascript:evtSubmit(event)" id="myform" class="confirm-form">
+                        <div class="label">
+                            <label for="email-reset">Please enter the email linked to your account </label>
+                        </div>
+                        <input  class="w11" type="email" name="email-reset" id="email-reset" placeholder="Email" required>
+                        <input type="submit" value="Confirm" class="btn" id="mailBtn">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="check-mail-overlay" id="check-mail-overlay">
+            <div class="check-mail">
+                <div class="icon">
+                    <i class="fas fa-times" id="close"></i>
+                </div>
+                <div class="card">
+                    <div class="sent-message">
+                        <div class="wrapper">
+                            <p class="sent-text">
+                                Please check your mail !:
+                            </p>
+                            <p class="sent-text-2">
+                                follow the link on your mail to reset your password
+                            </p>
+        
+                            <div class="not-seen">
+                                <p class="not-seen-text">
+                                    Didnt recieve Mail ?
+                                </p>
+        
+                                <button class="btn" id="resend">
+                                    Resend
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Js Link-->
+    <script src="confirm-mail.js"></script>
+
+</body>
+
+</html>
