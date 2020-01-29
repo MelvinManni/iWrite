@@ -34,6 +34,26 @@
                         </div>
                         <div class="form-div">
                             <form action="javascript:evtSubmit(event)" id="myform" class="details-form">
+
+                                <div class="profile-pic">
+                                    <div class="inline>
+                                        <div class="fit-content">
+                                            <label for="dp" class="profile-image inline"> <img alt="" id="output"> <i id="default" class="fas fa-user"></i> <img
+                                                    id="output" width="100px" alt="">
+                                               <div class="inline cancel">
+                                                    <p id="upload-text">Upload Image</p>
+                                               </div>
+                                            </label>
+
+                                            <i class="fas fa-times" id="cancel"></i>
+                                           
+                                        </div>
+                                        
+                                    </div>
+                                    <p><input onchange="loadFile(event)" accept="image/*" type="file" name="dp" id="dp" required></p>
+                                </div>
+
+
                                 <div class="flex row align-dets-form">
                                     <input type="text" name="Fname" id="" class="double-input sm-100" placeholder="First Name" required>
                                     <input type="text" name="Lname" id="" class="double-input sm-100" placeholder="Last Name" required>
@@ -44,7 +64,7 @@
                                     <input type="number" name="" id="" class="double-input sm-100" placeholder="Phone Number" required>
                                 </div>
 
-                                <select name="" id="">
+                                <select name="" id="select">
                                     <option class="first-option" selected disabled>Gender</option>
                                     <option class="select-style" value="" >Male</option>
                                     <option class="select-style last-option" value=""> Female</option>
@@ -52,11 +72,6 @@
 
                                 <input class="w12" type="text" name="" id="" placeholder="Address">
                                 <input class="w12" type="text" name="" id="" placeholder="Company Name">
-
-                                <div class="profile-pic">
-                                    <label for="dp" class="profile-label">Profile image</label>
-                                    <input type="file" name="dp" id="">
-                                </div>
 
                                 <input type="submit" value="Save" class="btn" id="save">
                             </form>
