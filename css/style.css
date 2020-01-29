@@ -362,7 +362,7 @@ input[type=file]{
     margin-left: 5px;
     position: relative;
     top: 5px;
-    transition: 0.4s ease-in;
+    transition: 0.2s ease-in;
 
 }
 
@@ -381,6 +381,10 @@ input[type=file]{
     }
 
     .blue-bg{
-        display: none;
+        height: max-content;
+    }
+
+    .index-blue{
+        margin-bottom: 30px;
     }
 }
